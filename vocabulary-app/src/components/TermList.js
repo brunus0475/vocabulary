@@ -5,7 +5,6 @@ import axios from "axios";
 import * as XLSX from "xlsx";
 import AddTermPage from "./AddTermPage";
 require("dotenv").config();
-// const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:4000/api";
 const apiUrl = process.env.REACT_APP_API_URL;
 
 function TermList() {
